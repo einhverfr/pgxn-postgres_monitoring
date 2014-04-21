@@ -1,0 +1,15 @@
+pg_monitoring: A PostgreSQL Monitoring Extension
+By Chris Travers
+================================================
+
+This extensions provides a basic monitoring extension for PostgreSQL, allowing
+you to extract monitoring statistics  in a variety of forms, to be consumed by
+a variety of monitoring solutions.
+
+It is minimalistic and may need to be expanded.
+
+The basic functions can be listed by \dx+ pg_monitoring.
+
+The pg_monitoring_load_across_tables() function has a significant caveat in
+that it shows the difference since last run.  Therefore you must process all
+stats you care about on each run.
