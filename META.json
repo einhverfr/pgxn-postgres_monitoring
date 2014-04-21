@@ -1,0 +1,44 @@
+{
+   "name": "pg_monitoring",
+   "abstract": "A collection of monitoring functions for Postgres",
+   "description": "pg_monitoring is an attempt to centralize monitoring functions, etc for PostgreSQL, so that plugins can be easily written for any number of monitoring frameworks using a common base",
+   "version": "0.0.1",
+   "maintainer": [
+      "Chris Travers <chris@metatrontech.com>"
+   ],
+   "license": {
+      "PostgreSQL": "http://www.postgresql.org/about/licence"
+   },
+   "prereqs": {
+      "runtime": {
+         "requires": {
+            "plpgsql": 0,
+            "PostgreSQL": "9.1.0"
+         }
+      }
+   },
+   "provides": {
+     "pg_monitoring": {
+       "file": "pg_monitoring--0.1.sql",
+       "docfile": "doc/README",
+       "version": "0.1",
+       "abstract": "Monitoring functions for PostgreSQL"
+     }
+   },
+   "resources": {
+      "bugtracker": {
+         "web": "https://github.com/einhverfr/pgxn-postgres_monitoring"
+      },
+      "repository": {
+        "url":  "https://github.com/einhverfr/pgxn-postgres_monitoring.git",
+        "web":  "https://github.com/einhverfr/pgxn-postgres_monitoring",
+        "type": "git"
+      }
+   },
+   "generated_by": "Chris Travers",
+   "meta-spec": {
+      "version": "1.0.0",
+      "url": "http://pgxn.org/meta/spec.txt"
+   },
+   "tags": ['monitoring']
+}
