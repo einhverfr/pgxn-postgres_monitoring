@@ -1,4 +1,4 @@
 # pg_monitoring extension
 comment = 'An extension to provide basic monitoring functions for Postgres'
-default_version = '0.1'
+default_version = '0.2'
 relocatable = true

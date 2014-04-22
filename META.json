@@ -2,7 +2,7 @@
    "name": "pg_monitoring",
    "abstract": "A collection of monitoring functions for Postgres",
    "description": "pg_monitoring is an attempt to centralize monitoring functions, etc for PostgreSQL, so that plugins can be easily written for any number of monitoring frameworks using a common base",
-   "version": "0.0.1",
+   "version": "0.2.0",
    "maintainer": [
       "Chris Travers <chris@metatrontech.com>"
    ],
@@ -21,7 +21,7 @@
      "pg_monitoring": {
        "file": "pg_monitoring--0.1.sql",
        "docfile": "doc/README",
-       "version": "0.1",
+       "version": "0.2",
        "abstract": "Monitoring functions for PostgreSQL"
      }
    },
