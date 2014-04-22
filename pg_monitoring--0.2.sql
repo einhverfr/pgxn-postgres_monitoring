@@ -1,4 +1,4 @@
--- \echo Use "CREATE EXTENSION pg_monitoring" to load this file. \quit
+ \echo Use "CREATE EXTENSION pg_monitoring" to load this file. \quit
 
 
 CREATE TABLE pg_monitoring_last_run (
